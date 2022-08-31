@@ -7,7 +7,10 @@ import Porfolio from './components/pages/Portfolio'
 import Testimonials from './components/pages/Testimonials'
 import Contact from './components/pages/Contact'
 
-function App() {
+function App(props) {
+
+  const value = props.subject;
+
   return (
     <>
       <Router>
