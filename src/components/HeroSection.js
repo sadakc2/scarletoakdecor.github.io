@@ -14,10 +14,11 @@ function HeroSection() {
           buttonStyle='btn--outline'
           buttonSize='btn--large'
         >
-          GET STARTED
+          GET IN TOUCH
         </Button>
       </div>
     </div>
+    
   );
 }
 

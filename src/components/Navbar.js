@@ -60,7 +60,15 @@ function Navbar() {
                 Testimonials
               </Link>
             </li>
-
+            <li>
+              <Link
+                to='/introduction'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                Introduction
+              </Link>
+            </li>
             <li>
               <Link
                 to='/contact'
