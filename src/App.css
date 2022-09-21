@@ -16,24 +16,6 @@
     font-size: 3rem;
   }
   
-  .portfolio {
-    background-image: url('/images/arbor_closeup.jpeg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-  }
-  
-  .products {
-    background-image: url('/images/orange_bouquets.jpeg');
-    background-position: center;
-    background-size: fill;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-  }
-  
   .sign-up {
     background-image: url('/images/Ks_arbor.jpeg');
     background-position: center;

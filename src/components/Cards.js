@@ -5,43 +5,117 @@ import CardItem from './CardItem';
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Check out these EPIC Destinations!</h1>
+      <h1>Portfolio</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
+        <ul className='cards__items'>
+            <CardItem
+              src='images/making_Cs_shower_decor.jpeg'
+              text="Creating Christina's Bridal Shower Decor"
+              label='Signage'
+              path='/portfolio'
+            />
+          </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/arbor_closeup.jpeg'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
-              label='Adventure'
+              src='images/bridal_shower_macaron_sign.jpeg'
+              text='Bridal Shower Macaron Sign with Florals'
+              label='Signage'
               path='/portfolio'
             />
             <CardItem
               src='images/bridal_shower_vases.jpeg'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
+              text='Bridal Shower Centerpieces'
+              label='Bridal Shower'
+              path='/portfolio'
+            />
+          </ul>
+          <ul className='cards__items'>
+          <CardItem
+              src='images/showe_vases_lineup.jpeg'
+              text='Bridal Shower Centerpiece'
+              label='Bridal Shower'
+              path='/portfolio'
+            />
+            <CardItem
+              src='images/shower_medium_vase_closeup.jpeg'
+              text='Bridal Shower Centerpiece'
+              label='Bridal Shower'
+              path='/portfolio'
+            />
+          </ul>
+          <ul className='cards__items'>
+          <CardItem
+              src='images/CKs_wedding.jpeg'
+              text='Bridal Party Flowers'
+              label='Wedding Florals'
+              path='/portfolio'
+            />
+          </ul>
+          <ul className='cards__items'>
+          <CardItem
+              src='images/Ks_florals.jpg'
+              text='Bridal Party Flowers'
+              label='Wedding Florals'
+              path='/portfolio'
+            />
+            <CardItem
+              src='images/Ks_arbor.jpeg'
+              text='Arbor Flowers'
+              label='Wedding Florals;'
+              path='/portfolio'
+            />
+          </ul>
+          <ul className='cards__items'>
+          <CardItem
+              src='images/Ks_welcome_sign.jpeg'
+              text='Welcome Sign'
+              label='Signage'
+              path='/portfolio'
+            />
+            <CardItem
+              src='images/arbor_closeup.jpeg'
+              text='Arbor Flowers'
+              label='Wedding Florals;'
+              path='/portfolio'
+            />
+          </ul>
+          <ul className='cards__items'>
+          <CardItem
+              src='images/cascading_bouquet.jpeg'
+              text='Cascading Bridal Bouquet'
+              label='Bouquet'
+              path='/portfolio'
+            />
+            <CardItem
+              src='images/real_bride_cascading.jpeg'
+              text='SOD Bride with her Bouquet'
+              label='Bouquet'
               path='/portfolio'
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/cascading_bouquet.jpeg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Mystery'
+              src='images/orange_bouquet_side.jpeg'
+              text='Bridesmaid Bouquet'
+              label='Bouquet'
               path='/portfolio'
             />
             <CardItem
-              src='images/Ks_florals.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
-              path='/portfolio'
-            />
-            <CardItem
-              src='images/img-8.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
-              label='Adrenaline'
+              src='images/orange_sweetheart_table_flowers.jpeg'
+              text='Sweetheart Table Arrangement'
+              label='Wedding Florals'
               path='/portfolio'
             />
           </ul>
+          <ul className='cards__items'>
+            <CardItem
+              src='images/orange_flowers_full_order.jpeg'
+              text='Bridesmaid Bouquet'
+              label='Bouquet'
+              path='/portfolio'
+            />
+            </ul>
         </div>
       </div>
     </div>

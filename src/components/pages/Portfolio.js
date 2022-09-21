@@ -1,6 +1,14 @@
 import React from "react";
 import '../../App.css'
+import Cards from '../Cards';
 
-export default function Portfolio() {
-    return <h1 className="contact">PORTFOLIO</h1>
+function Portfolio() {
+    return (
+        <>
+            <Cards />
+        </>
+    )
 }
+
+
+export default Portfolio;
