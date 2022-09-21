@@ -52,7 +52,7 @@ function Cards() {
           </ul>
           <ul className='cards__items'>
           <CardItem
-              src='images/Ks_whole_party.JPG'
+              src='images/Ks_whole_party.jpeg'
               text='Bridal Party Flowers'
               label='Wedding Florals'
               path='/portfolio'
