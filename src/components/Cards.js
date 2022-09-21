@@ -24,16 +24,22 @@ function Cards() {
               path='/portfolio'
             />
             <CardItem
-              src='images/bridal_shower_vases.jpeg'
+              src='images/shower_big_vase_closeup.jpeg'
               text='Bridal Shower Centerpieces'
+              label='Bridal Shower'
+              path='/portfolio'
+            />
+            <CardItem
+              src='images/showe_vases_lineup.jpeg'
+              text='Bridal Shower Centerpiece'
               label='Bridal Shower'
               path='/portfolio'
             />
           </ul>
           <ul className='cards__items'>
           <CardItem
-              src='images/showe_vases_lineup.jpeg'
-              text='Bridal Shower Centerpiece'
+              src='images/bridal_shower_vases.jpeg'
+              text='Bridal Shower Centerpieces'
               label='Bridal Shower'
               path='/portfolio'
             />
@@ -46,13 +52,19 @@ function Cards() {
           </ul>
           <ul className='cards__items'>
           <CardItem
-              src='images/CKs_wedding.jpeg'
+              src='images/Ks_whole_party.JPG'
               text='Bridal Party Flowers'
               label='Wedding Florals'
               path='/portfolio'
             />
           </ul>
           <ul className='cards__items'>
+          <CardItem
+              src='images/Ks_bridal_bouquet_2.jpeg'
+              text='Bridal Bouquet'
+              label='Bouquet'
+              path='/portfolio'
+            />
           <CardItem
               src='images/Ks_florals.jpg'
               text='Bridal Party Flowers'
