@@ -10,7 +10,7 @@ function Cards() {
         <div className='cards__wrapper'>
         <ul className='cards__items'>
             <CardItem
-              src='images/making_Cs_shower_decor.jpeg'
+              src='images/creating_shower_flowers_2.jpeg'
               text="Creating Christina's Bridal Shower Decor"
               label='Signage'
               path='/portfolio'
@@ -52,15 +52,15 @@ function Cards() {
           </ul>
           <ul className='cards__items'>
           <CardItem
-              src='images/Ks_whole_party.JPG'
-              text='Bridal Party Flowers'
+              src='images/Ks_whole_party.jpeg'
+              text='Wedding Party Bouquets and Boutonnieres'
               label='Wedding Florals'
               path='/portfolio'
             />
           </ul>
           <ul className='cards__items'>
           <CardItem
-              src='images/Ks_bridal_bouquet_2.jpeg'
+              src='images/Ks_bridal_bouquet.jpeg'
               text='Bridal Bouquet'
               label='Bouquet'
               path='/portfolio'
