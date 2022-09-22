@@ -53,7 +53,6 @@ function Cards() {
           <ul className='cards__items'>
           <CardItem
               src='images/Ks_whole_party.jpeg'
-              text='Wedding Party Bouquets and Boutonnieres'
               label='Wedding Florals'
               path='/portfolio'
             />
